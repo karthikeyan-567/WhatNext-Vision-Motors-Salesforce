@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Student</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Students</value>
+    </caseValues>
+    <layouts>
+        <layout>New Arranged</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Non Technical</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Non Technical Info --></label>
+            <section>Non Technical Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Non Technical Students</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Technical Info --></label>
+            <section>Technical Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technical Students</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Technical Info --></label>
+            <section>Technical Info</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Non Technical Students --></label>
+        <name>Non_Technical_Students</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Technical Students --></label>
+        <name>Technical_Students</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

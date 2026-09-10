@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technical_Students</fullName>
+    <active>true</active>
+    <label>Technical Students</label>
+    <picklistValues>
+        <picklist>Branch__c</picklist>
+        <values>
+            <fullName>AIDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gender__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Phone_No</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISBLANK(Phone),
+ISPICKVAL(Type,&apos;Customer - Direct&apos;)
+)</errorConditionFormula>
+    <errorMessage>You must need to enter Phone Number in Customer-Direct</errorMessage>
+</ValidationRule>
